@@ -47,7 +47,8 @@ const server = http.createServer((req, res) => {
   // INVALID URL
   else {
     res.writeHead(404, { 'Content-Type': 'text/html' });
-    res.end('404! Please visit correct link!');
+    res.write('<h1 style="color:red;">404! Please visit correct link!</h1>');
+    res.end();
   }
 });
 
