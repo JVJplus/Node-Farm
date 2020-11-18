@@ -25,5 +25,5 @@ App was created as part of [Jonas Schmedtmann's Node.js course on Udemy](https:/
 
 ## How To Run
 
-`npm start`
+`npm start`<br/>
 `node index.js` (if nodemon is not installed)
